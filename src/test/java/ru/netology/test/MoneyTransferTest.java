@@ -68,4 +68,6 @@ public class MoneyTransferTest {
         val badVerificationCode = DataHelper.getOtherVerificationCodeFor(authInfo);
         verificationPage.invalidVerify(badVerificationCode);
     }
+
+
 }
